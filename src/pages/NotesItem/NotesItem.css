@@ -1,0 +1,23 @@
+.container-notes-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  color: var(--bg-third-color);
+  background-color: var(--primary-color);
+  padding: 1rem;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+
+.container-notes-item:hover {
+  background-color: var(--text-color);
+  color: var(--bg-fourty-color);
+}
+
+.container-notes-item h4:hover {
+  color: var(--bg-fourty-color);
+}
+
+.container-notes-item h4 {
+  font-size: 1.5rem;
+}

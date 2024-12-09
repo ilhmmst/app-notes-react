@@ -1,0 +1,28 @@
+.container-footer {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.container-footer p {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.list-sosmed {
+  display: flex;
+  gap: 1rem;
+}
+
+.list-sosmed a {
+  color: var(--bg-secondary-color);
+  font-size: 1.5rem;
+  transition: 0.3s all;
+}
+
+.list-sosmed a:hover {
+  color: var(--text-color);
+}
